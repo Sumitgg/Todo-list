@@ -13,6 +13,7 @@
 		ECFC2E5B1FFD3EB700AB247C /* Todo_list.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECFC2E591FFD3EB700AB247C /* Todo_list.xcdatamodeld */; };
 		ECFC2E5D1FFD3EB700AB247C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFC2E5C1FFD3EB700AB247C /* Assets.xcassets */; };
 		ECFC2E601FFD3EB700AB247C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFC2E5E1FFD3EB700AB247C /* LaunchScreen.storyboard */; };
+		ECFC2E681FFD414A00AB247C /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC2E671FFD414A00AB247C /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		ECFC2E5C1FFD3EB700AB247C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECFC2E5F1FFD3EB700AB247C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECFC2E611FFD3EB700AB247C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECFC2E671FFD414A00AB247C /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				ECFC2E521FFD3EB700AB247C /* AppDelegate.swift */,
 				ECFC2E541FFD3EB700AB247C /* ViewController.swift */,
+				ECFC2E671FFD414A00AB247C /* AddTaskViewController.swift */,
 				ECFC2E561FFD3EB700AB247C /* Main.storyboard */,
 				ECFC2E5C1FFD3EB700AB247C /* Assets.xcassets */,
 				ECFC2E5E1FFD3EB700AB247C /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECFC2E5B1FFD3EB700AB247C /* Todo_list.xcdatamodeld in Sources */,
+				ECFC2E681FFD414A00AB247C /* AddTaskViewController.swift in Sources */,
 				ECFC2E551FFD3EB700AB247C /* ViewController.swift in Sources */,
 				ECFC2E531FFD3EB700AB247C /* AppDelegate.swift in Sources */,
 			);
