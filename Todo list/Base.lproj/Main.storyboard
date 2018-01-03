@@ -38,10 +38,13 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="238-HX-YuG" id="YP4-8J-qXm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-977" y="101"/>
+            <point key="canvasLocation" x="-55" y="150"/>
         </scene>
         <!--Add Task View Controller-->
         <scene sceneID="eXq-S6-0Oz">
@@ -66,6 +69,9 @@
                                 <state key="normal" title="Add Task">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnTapped:" destination="Cjp-G5-zEV" eventType="touchUpInside" id="AEu-qK-WWk"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -81,10 +87,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3je-hq-LjH"/>
                     </view>
+                    <connections>
+                        <outlet property="isImp" destination="vdT-Xa-oyM" id="LWP-u7-r8b"/>
+                        <outlet property="textField" destination="fNm-Eg-vHU" id="4gX-Cg-z3d"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i9c-Dc-wJJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="504.80000000000001" y="89.505247376311857"/>
+            <point key="canvasLocation" x="1017" y="116"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="uu1-WE-Bmq">
